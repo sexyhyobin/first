@@ -32,8 +32,6 @@ if [ -e $FILE ]; then
 fi
 sudo chmod 755 log4j2-scan
 
-# Logpresso scanner 실행 
-
 HOSTNAME_S=`hostname -s`
 
 DIR="/"
